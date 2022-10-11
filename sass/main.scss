@@ -1,1 +1,14 @@
+$primary : purple;
+$warning : brown;
+$modal-backdrop-bg: lightgreen;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$rockzy-theme-colors: (
+    "cool" : pink,
+    "rockzy" : cyan);
+
+$theme-colors : map-merge($rockzy-theme-colors, $theme-colors );
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
